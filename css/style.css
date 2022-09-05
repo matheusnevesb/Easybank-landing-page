@@ -114,12 +114,38 @@ main {
     padding: 40px 0 40px 12%;
 }
 
+.container02 .texto {
+    margin: 50px 0;
+}
+
 .container02 .texto h2 {
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .container02 .texto p {
     font-size: 18px;
+    color: #9597A5;
+    width: 600px;
+}
+
+.container02 .boxes {
+    width: 80%;
+    display: flex;
+}
+
+.container02 .boxes .box {
+    width: 20%;
+    margin-right: 5%;
+}
+
+.container02 .boxes .box h3 {
+    margin: 2em 0;
+    font-size: 24px;
+}
+
+.container02 .boxes .box p {
+    font-size: 16px;
     color: #9597A5;
 }
 
@@ -203,6 +229,41 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+
+
+    
+    .container02 .texto {
+        margin-right: 90px;
+    }
+    
+    .container02 .texto h2 {
+        text-align: center;
+    } 
+
+    .container02 .texto p {
+        width: 300px;
+        text-align: center;
+        
+    }
+
+    .container02 .boxes {
+        flex-direction: column;
+    }
+
+    .container02 .boxes .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    .container02 .boxes .box img {
+        height: 72px;
+        width: 72px;
     }
 
 
