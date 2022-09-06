@@ -69,11 +69,12 @@ main {
     background-color: #FAFAFA;
 }
 
+
 .foto {
     height: 901px;
     position: absolute;
     top: -125px;
-    right: -130px;    
+    right: -130px;
 }
 
 .container .containerConteudo {
@@ -205,6 +206,52 @@ main {
     color: #9597A5;
 }
 
+footer {
+    background-color: #2D314D;
+    color: white;
+    display: flex;
+    height: 191px;
+    padding: 0 7%;
+}
+
+footer .div01 {
+    height: 100%;
+    width: 154px;
+    margin: 50px;
+}
+
+footer .div01 img {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+footer div .social img {
+    margin-right: 5px;
+}
+
+footer .textoFooter {
+    margin: 50px;
+}
+
+footer .textoFooter h6 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer .textoFooter h6:hover {
+    color: #30C88F;
+}
+
+footer .colunaBotao {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+footer .colunaBotao p {
+    margin-top: 20px;
+    color: #FFFFFF;
+}
 
 @media (max-width: 375px) {
     .botaoHamburguer {
